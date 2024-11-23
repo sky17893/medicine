@@ -1488,28 +1488,28 @@ body {
     font-family: 'Pretendard';
     font-weight: 400;
     font-display: swap;
-    src: url('https://jinyaksamall.com/web/upload/kdesign/font/Pretendard-Regular.woff2') format('woff2'),url('https://jinyaksamall.com/web/upload/kdesign/font/Pretendard-Regular.woff') format('woff'),url('https://jinyaksamall.com/web/upload/kdesign/font/Pretendard-Regular.ttf') format('ttf');
+    src: url('./assets/fonts/Pretendard-Regular.woff2') format('woff2'),url('./assets/fonts/Pretendard-Regular.woff') format('woff'),url('./assets/fonts/Pretendard-Regular.ttf') format('ttf');
 }
 
 @font-face {
     font-family: 'Pretendard';
     font-weight: 500;
     font-display: swap;
-    src: url('https://jinyaksamall.com/web/upload/kdesign/font/Pretendard-Medium.woff2') format('woff2'),url('https://jinyaksamall.com/web/upload/kdesign/font/Pretendard-Medium.woff') format('woff'),url('https://jinyaksamall.com/web/upload/kdesign/font/Pretendard-Medium.ttf') format('ttf');
+    src: url('./assets/fonts/Pretendard-Medium.woff2') format('woff2'),url('./assets/fonts/Pretendard-Medium.woff') format('woff'),url('./assets/fonts/Pretendard-Medium.ttf') format('ttf');
 }
 
 @font-face {
     font-family: 'Pretendard';
     font-weight: 600;
     font-display: swap;
-    src: url('https://jinyaksamall.com/web/upload/kdesign/font/Pretendard-SemiBold.woff2') format('woff2'),url('https://jinyaksamall.com/web/upload/kdesign/font/Pretendard-SemiBold.woff') format('woff'),url('https://jinyaksamall.com/web/upload/kdesign/font/Pretendard-SemiBold.ttf') format('ttf');
+    src: url('./assets/fonts/Pretendard-SemiBold.woff2') format('woff2'),url('./assets/fonts/Pretendard-SemiBold.woff') format('woff'),url('./assets/fonts/Pretendard-SemiBold.ttf') format('ttf');
 }
 
 @font-face {
     font-family: 'Pretendard';
     font-weight: 700;
     font-display: swap;
-    src: url('https://jinyaksamall.com/web/upload/kdesign/font/Pretendard-Bold.woff2') format('woff2'),url('https://jinyaksamall.com/web/upload/kdesign/font/Pretendard-Bold.woff') format('woff'),url('https://jinyaksamall.com/web/upload/kdesign/font/Pretendard-Bold.ttf') format('ttf');
+    src: url('./assets/fonts/Pretendard-Bold.woff2') format('woff2'),url('./assets/fonts/Pretendard-Bold.woff') format('woff'),url('./assets/fonts/Pretendard-Bold.ttf') format('ttf');
 }
 
 @font-face {

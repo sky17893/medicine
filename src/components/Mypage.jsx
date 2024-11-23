@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const Mypage = () => {
@@ -9,6 +9,11 @@ const Mypage = () => {
   const image4 = "https://jinyaksamall.com/web/upload/kdesign/ico/ic_hd_user.svg";
   const image5 = "https://jinyaksamall.com//web/upload/kdesign/ico/ic_hd_cart.svg";
   const image6 = "https://jinyaksamall.com/web/upload/kdesign/ico/ic_hd_menu.svg";
+  const [keyword, setKeyword] = useState('');
+
+  const handleInputChange = (event) => {
+    setKeyword(event.target.value);
+  };
 
   return (
     <div className="App">
@@ -23,7 +28,7 @@ const Mypage = () => {
 					<input id="banner_action" name="banner_action" value="" type="hidden" />
 					<div className="xans-element- xans-layout xans-layout-searchheader ">
 						<fieldset className="kd-searc-box kd-flex">
-							<label for="keyword" className="ePlaceholder" title="검색어를 입력해주세요..."><input id="keyword" name="keyword" fw-filter="" fw-label="검색어" fw-msg="" class="inputTypeText" placeholder="검색어를 입력해주세요..." onmousedown="SEARCH_BANNER.clickSearchForm(this)" value="" type="text" /></label><input class="ico_search" type="image" src={image2} alt="" onclick="SEARCH_BANNER.submitSearchBanner(this); return false;" />
+							<label for="keyword" className="ePlaceholder" title="검색어를 입력해주세요..."><input id="keyword" name="keyword" fw-filter="" fw-label="검색어" fw-msg="" class="inputTypeText" placeholder="검색어를 입력해주세요..." onmousedown="SEARCH_BANNER.clickSearchForm(this)" value={keyword} type="text" onChange={handleInputChange} /></label><input class="ico_search" type="image" src={image2} alt="" onclick="SEARCH_BANNER.submitSearchBanner(this); return false;" />
 							<ul className="autoDrop" id="">
 							</ul>
 						</fieldset>

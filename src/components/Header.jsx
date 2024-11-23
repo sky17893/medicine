@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-const Mypage = () => {
+const Header = () => {
 
   const image = "https://jinyaksamall.com/web/upload/category/editor/2024/11/14/916ee063bf597ae476ce7cc6b5c20778.png";
   const image2 = "https://jinyaksamall.com/web/upload/kdesign/ico/ic_hd_search.svg";
@@ -111,4 +111,4 @@ const Mypage = () => {
   )
 }
 
-export default Mypage
+export default Header

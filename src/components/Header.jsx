@@ -107,16 +107,17 @@ const Header = () => {
 					<ul className="kd-flex">
 						<li><Link to="/">홈</Link></li>
 						<li><Link to="/">전체상품</Link></li>
-						<li><Link to="/">베스트</Link></li>
-						<li><Link to="/">신제품</Link></li>
+						<li><Link to="/">베스트상품</Link></li>
+						{/*<li><Link to="/">신제품</Link></li>
 						<li><Link to="/">상품후기</Link></li>
-						{/*<li><a href="/product/list.html?cate_no=138">정기배송</a></li> */}
-						<li><Link to="/">고객센터</Link></li>
+						<li><a href="/product/list.html?cate_no=138">정기배송</a></li>
+						<li><Link to="/">고객센터</Link></li> */}
 					</ul>
 					</li>
 				</ul>				
-				<div className="kd-cate-adminin" style={{display: isHovered ? 'block' : 'none', }}>
+				<div className="kd-cate-adminin" style={{display: isHovered ? 'block' : 'none', }}>					
 					<ul className="xans-element- xans-layout xans-layout-category kd-flex">
+					<h6>카테고리(관리)-일반의약품으로 모두변환요망!</h6>
 					<li className={`xans-record-${activeCategory === 44 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(44)} onMouseLeave={() => setActiveCategory(null)}><Link to="/">비타민</Link>
 					{activeCategory === 44 && (
             	<div className="sub-category">

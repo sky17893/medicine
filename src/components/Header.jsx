@@ -117,7 +117,7 @@ const Header = () => {
 				</ul>				
 				<div className="kd-cate-adminin" style={{display: isHovered ? 'block' : 'none', }}>					
 					<ul className="xans-element- xans-layout xans-layout-category kd-flex">
-					<h6>카테고리(관리)-일반의약품으로 모두변환요망!</h6>
+					<h6>카테고리(관리)-일반의약품명으로 모두변환요망!</h6>
 					<li className={`xans-record-${activeCategory === 44 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(44)} onMouseLeave={() => setActiveCategory(null)}><Link to="/">비타민</Link>
 					{activeCategory === 44 && (
             	<div className="sub-category">

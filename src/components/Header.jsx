@@ -89,7 +89,7 @@ const Header = () => {
 				</div>*/}
 			</div>
 			<ul className="kd-log-wrap kd-flex">
-				<li className="xans-element- xans-layout xans-layout-statelogoff "><Link to="/member/login.html" className="kd-ic-log"><img src={image3} alt="로그인하기" />로그인</Link>
+				<li className="xans-element- xans-layout xans-layout-statelogoff "><Link to="/" className="kd-ic-log"><img src={image3} alt="로그인하기" />로그인</Link>
 				</li>
 				<li><Link to="/MyPage" className="kd-ic-my"><img src={image4} alt="마이페이지로 이동" />마이페이지</Link></li>
 				<li><Link to="/order/basket.html" className="xans-element- xans-layout xans-layout-orderbasketcount kd-ic-cart "><span className="count displaynone EC-Layout_Basket-count-display"><span className="EC-Layout-Basket-count">0</span></span>
@@ -105,119 +105,119 @@ const Header = () => {
 					<li>
 					<ul className="kd-flex">
 						<li><Link to="/">홈</Link></li>
-						<li><Link to="/product/list.html?cate_no=112">전체상품</Link></li>
-						<li><Link to="/product/list.html?cate_no=47">베스트</Link></li>
-						<li><Link to="/product/list.html?cate_no=135">신제품</Link></li>
-						<li><Link to="/review/list.html">상품후기</Link></li>
+						<li><Link to="/">전체상품</Link></li>
+						<li><Link to="/">베스트</Link></li>
+						<li><Link to="/">신제품</Link></li>
+						<li><Link to="/">상품후기</Link></li>
 						{/*<li><a href="/product/list.html?cate_no=138">정기배송</a></li> */}
-						<li><Link to="/notice/list.html">고객센터</Link></li>
+						<li><Link to="/">고객센터</Link></li>
 					</ul>
 					</li>
 				</ul>				
 				<div className="kd-cate-adminin" style={{display: isHovered ? 'block' : 'none', }}>
 					<ul className="xans-element- xans-layout xans-layout-category kd-flex">
-					<li className={`xans-record-${activeCategory === 44 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(44)} onMouseLeave={() => setActiveCategory(null)}><Link to="/product/list.html?cate_no=44">비타민</Link>
+					<li className={`xans-record-${activeCategory === 44 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(44)} onMouseLeave={() => setActiveCategory(null)}><Link to="/">비타민</Link>
 					{activeCategory === 44 && (
             	<div className="sub-category">
               		<ul>
-                		<li><Link to="/product/list.html?cate_no=45">비타민A</Link></li>
-                		<li><Link to="/product/list.html?cate_no=46">비타민B</Link></li>
-                		<li><Link to="/product/list.html?cate_no=47">비타민C</Link></li>
+                		<li><Link to="/">비타민A</Link></li>
+                		<li><Link to="/">비타민B</Link></li>
+                		<li><Link to="/">비타민C</Link></li>
               		</ul>
             	</div>
           		)}
 		  		</li>
-				  <li className={`xans-record-${activeCategory === 113 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(113)} onMouseLeave={() => setActiveCategory(null)}><Link to="/product/list.html?cate_no=113">미네랄</Link>
+				  <li className={`xans-record-${activeCategory === 113 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(113)} onMouseLeave={() => setActiveCategory(null)}><Link to="/">미네랄</Link>
 				  {activeCategory === 113 && (
             	<div className="sub-category">
               		<ul>
-                		<li><Link to="/product/list.html?cate_no=45">마그네슘</Link></li>
-                		<li><Link to="/product/list.html?cate_no=46">헬씨플러스</Link></li>
-                		<li><Link to="/product/list.html?cate_no=47">MSM 액티브</Link></li>
+                		<li><Link to="/">마그네슘</Link></li>
+                		<li><Link to="/">헬씨플러스</Link></li>
+                		<li><Link to="/">MSM 액티브</Link></li>
               		</ul>
             	</div>
           		)}
 				  </li>
-				  <li className={`xans-record-${activeCategory === 42 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(42)} onMouseLeave={() => setActiveCategory(null)}><Link to="/product/list.html?cate_no=42">베타글루칸</Link>
+				  <li className={`xans-record-${activeCategory === 42 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(42)} onMouseLeave={() => setActiveCategory(null)}><Link to="/">베타글루칸</Link>
 				  {activeCategory === 42 && (
             	<div className="sub-category">
               		<ul>
-                		<li><Link to="/product/list.html?cate_no=45">진정주 베타글루칸 (캡슐)</Link></li>
-                		<li><Link to="/product/list.html?cate_no=46">진중주 베타글루칸(분말)</Link></li>
-                		<li><Link to="/product/list.html?cate_no=47">NEW 진정주 효모베타글루칸β</Link></li>
+                		<li><Link to="/">진정주 베타글루칸 (캡슐)</Link></li>
+                		<li><Link to="/">진중주 베타글루칸(분말)</Link></li>
+                		<li><Link to="/">NEW 진정주 효모베타글루칸β</Link></li>
               		</ul>
             	</div>
           		)}
 				  </li>
-				  <li className={`xans-record-${activeCategory === 204 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(204)} onMouseLeave={() => setActiveCategory(null)}><Link to="/product/list.html?cate_no=204">효모</Link>
+				  <li className={`xans-record-${activeCategory === 204 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(204)} onMouseLeave={() => setActiveCategory(null)}><Link to="/">효모</Link>
 				  {activeCategory === 204 && (
             	<div className="sub-category">
               		<ul>
-                		<li><Link to="/product/list.html?cate_no=45">NEW 진정주 효모베타글루칸β</Link></li>
-                		<li><Link to="/product/list.html?cate_no=46">셀렌효모</Link></li>                		
+                		<li><Link to="/">NEW 진정주 효모베타글루칸β</Link></li>
+                		<li><Link to="/">셀렌효모</Link></li>                		
               		</ul>
             	</div>
           		)}
 				  </li>
-				  <li className={`xans-record-${activeCategory === 46 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(46)} onMouseLeave={() => setActiveCategory(null)}><Link to="/product/list.html?cate_no=46">오메가3 / 오일류</Link>
+				  <li className={`xans-record-${activeCategory === 46 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(46)} onMouseLeave={() => setActiveCategory(null)}><Link to="/">오메가3 / 오일류</Link>
 				  {activeCategory === 46 && (
             	<div className="sub-category">
               		<ul>
-                		<li><Link to="/product/list.html?cate_no=45">오메가3</Link></li>
-                		<li><Link to="/product/list.html?cate_no=46">진정주 프리미엄 올리브오일</Link></li>
-						<li><Link to="/product/list.html?cate_no=47">진정주 프리미엄 레시틴</Link></li>   
-						<li><Link to="/product/list.html?cate_no=48">진정주 보라지 감마리놀렌산</Link></li>                   		
+                		<li><Link to="/">오메가3</Link></li>
+                		<li><Link to="/">진정주 프리미엄 올리브오일</Link></li>
+						<li><Link to="/">진정주 프리미엄 레시틴</Link></li>   
+						<li><Link to="/">진정주 보라지 감마리놀렌산</Link></li>                   		
               		</ul>
             	</div>
           		)}
 				  </li>
-				  <li className={`xans-record-${activeCategory === 119 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(119)} onMouseLeave={() => setActiveCategory(null)}><Link to="/product/list.html?cate_no=119">밀크씨슬</Link>
+				  <li className={`xans-record-${activeCategory === 119 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(119)} onMouseLeave={() => setActiveCategory(null)}><Link to="/">밀크씨슬</Link>
 				  {activeCategory === 119 && (
             	<div className="sub-category">
               		<ul>
-                		<li><Link to="/product/list.html?cate_no=45">프리미엄 밀크씨슬</Link></li>
-                		<li><Link to="/product/list.html?cate_no=46">유기농 밀크씨슬</Link></li>                		
+                		<li><Link to="/">프리미엄 밀크씨슬</Link></li>
+                		<li><Link to="/">유기농 밀크씨슬</Link></li>                		
               		</ul>
             	</div>
           		)}
 				  </li>
-				  <li className={`xans-record-${activeCategory === 209 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(209)} onMouseLeave={() => setActiveCategory(null)}><Link to="/product/list.html?cate_no=209">아미노산</Link>
+				  <li className={`xans-record-${activeCategory === 209 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(209)} onMouseLeave={() => setActiveCategory(null)}><Link to="/">아미노산</Link>
 				  {activeCategory === 209 && (
             	<div className="sub-category">
               		<ul>
-                		<li><Link to="/product/list.html?cate_no=45">필수 아미노산 플러스</Link></li>                		           		
+                		<li><Link to="/">필수 아미노산 플러스</Link></li>                		           		
               		</ul>
             	</div>
           		)}
 				  </li>
-				  <li className={`xans-record-${activeCategory === 127 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(127)} onMouseLeave={() => setActiveCategory(null)}><Link to="/product/list.html?cate_no=127">유산균 / 차전자피</Link>
+				  <li className={`xans-record-${activeCategory === 127 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(127)} onMouseLeave={() => setActiveCategory(null)}><Link to="/">유산균 / 차전자피</Link>
 				  {activeCategory === 127 && (
             	<div className="sub-category">
               		<ul>
-                		<li><Link to="/product/list.html?cate_no=45">락토케어 마이크로바이옴 프로바이오틱스</Link></li>
-                		<li><Link to="/product/list.html?cate_no=46">프리미엄 차전자피</Link></li>                		
+                		<li><Link to="/">락토케어 마이크로바이옴 프로바이오틱스</Link></li>
+                		<li><Link to="/">프리미엄 차전자피</Link></li>                		
               		</ul>
             	</div>
           		)}
 				  </li>
-				  <li className={`xans-record-${activeCategory === 43 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(43)} onMouseLeave={() => setActiveCategory(null)}><Link to="/product/list.html?cate_no=43">루테인 / 덴티</Link>
+				  <li className={`xans-record-${activeCategory === 43 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(43)} onMouseLeave={() => setActiveCategory(null)}><Link to="/">루테인 / 덴티</Link>
 				  {activeCategory === 43 && (
             	<div className="sub-category">
               		<ul>
-                		<li><Link to="/product/list.html?cate_no=45">진정주 루테인지아잔틴 미니</Link></li>
-                		<li><Link to="/product/list.html?cate_no=46">덴티플러스</Link></li>                		
+                		<li><Link to="/">진정주 루테인지아잔틴 미니</Link></li>
+                		<li><Link to="/">덴티플러스</Link></li>                		
               		</ul>
             	</div>
           		)}
 				  </li>
-				  <li className="xans-record-"><Link to="/product/list.html?cate_no=261">콜라겐</Link></li>
-				  <li className={`xans-record-${activeCategory === 48 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(48)} onMouseLeave={() => setActiveCategory(null)}><Link to="/product/list.html?cate_no=48">화장품</Link>
+				  <li className="xans-record-"><Link to="/">콜라겐</Link></li>
+				  <li className={`xans-record-${activeCategory === 48 ? 'on' : ''}`} onMouseEnter={() => setActiveCategory(48)} onMouseLeave={() => setActiveCategory(null)}><Link to="/">화장품</Link>
 				  {activeCategory === 48 && (
             	<div className="sub-category">
               		<ul>
-                		<li><Link to="/product/list.html?cate_no=45">진정주 스노우 글로우 마스크팩</Link></li>
-                		<li><Link to="/product/list.html?cate_no=46">진정주 미본 앰플</Link></li>
-						<li><Link to="/product/list.html?cate_no=47">비타브리드C¹²</Link></li>              		
+                		<li><Link to="/">진정주 스노우 글로우 마스크팩</Link></li>
+                		<li><Link to="/">진정주 미본 앰플</Link></li>
+						<li><Link to="/">비타브리드C¹²</Link></li>              		
               		</ul>
             	</div>
           		)}

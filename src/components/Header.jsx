@@ -92,7 +92,7 @@ const Header = () => {
 				<li className="xans-element- xans-layout xans-layout-statelogoff "><Link to="/" className="kd-ic-log"><img src={image3} alt="로그인하기" />로그인</Link>
 				</li>
 				<li><Link to="/MyPage" className="kd-ic-my"><img src={image4} alt="마이페이지로 이동" />마이페이지</Link></li>
-				<li><Link to="/order/basket.html" className="xans-element- xans-layout xans-layout-orderbasketcount kd-ic-cart "><span className="count displaynone EC-Layout_Basket-count-display"><span className="EC-Layout-Basket-count">0</span></span>
+				<li><Link to="/" className="xans-element- xans-layout xans-layout-orderbasketcount kd-ic-cart "><span className="count displaynone EC-Layout_Basket-count-display"><span className="EC-Layout-Basket-count">0</span></span>
 				<img src={image5} alt="장바구니"/>
 				장바구니 </Link>
 				</li>
